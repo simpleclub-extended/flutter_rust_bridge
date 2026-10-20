@@ -158,7 +158,7 @@ fn generate_boilerplate(
                     {api_class_name}? api,
                     BaseHandler? handler,
                     ExternalLibrary? externalLibrary,
-                    bool forceSameCodegenVersion = true,
+                    bool forceSameCodegenVersion = false,
                   }}) async {{
                     await instance.initImpl(
                       api: api,

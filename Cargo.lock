@@ -597,7 +597,7 @@ dependencies = [
 
 [[package]]
 name = "flutter_rust_bridge"
-version = "2.14.0-beta.2"
+version = "2.14.0-priv.1"
 dependencies = [
  "allo-isolate",
  "android_logger",
@@ -630,7 +630,7 @@ dependencies = [
 
 [[package]]
 name = "flutter_rust_bridge_codegen"
-version = "2.14.0-beta.2"
+version = "2.14.0-priv.1"
 dependencies = [
  "anyhow",
  "cargo_metadata",
@@ -675,7 +675,7 @@ dependencies = [
 
 [[package]]
 name = "flutter_rust_bridge_macros"
-version = "2.14.0-beta.2"
+version = "2.14.0-priv.1"
 dependencies = [
  "hex",
  "md-5",
