@@ -1,0 +1,22 @@
+name: app - package - flutter_rust_bridge
+id: 'ari:cloud:compass:8072ec69-bd2f-4082-a110-02e57b2c244d:component/ec01753c-527e-446d-905a-af54f87f04a0/420f37ce-dfe1-432f-9821-c3dcb32a55f6'
+description: >-
+  Fork of fzyzcjy/flutter_rust_bridge with CSP-safe WASM loading, used by tex_to_speech until upstream issue #3477 ships.
+configVersion: 1
+typeId: LIBRARY
+ownerId: 'ari:cloud:teams::team/9644ecd5-d9ed-4014-afd7-50bdcb843ff2' # Blue Team
+fields:
+  tier: 3
+  lifecycle: Active
+links:
+  - name: Repository
+    type: REPOSITORY
+    url: 'https://github.com/simpleclub-extended/flutter_rust_bridge'
+relationships:
+labels:
+  - 'language:dart'
+  - 'language:rust'
+  - 'frontend'
+
+# Learn more about formatting compass.yaml:
+# https://go.atlassian.com/compass-yml-format
